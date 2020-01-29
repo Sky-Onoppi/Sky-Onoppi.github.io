@@ -11,8 +11,8 @@
 }
 
 body {
-  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-  /* font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif; */
+  /* font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; */
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
   color: #333;
   font-size: 15px;
   line-height: 1.8;
@@ -41,7 +41,7 @@ object {
   max-width: 100%;
   height: auto;
   border: none;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
   display: block;
 }
 
