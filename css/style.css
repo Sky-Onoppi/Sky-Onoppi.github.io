@@ -328,17 +328,17 @@ li {
 
 #works .card-image-e {
   border: solid 1px #be4883;
-  /* padding: 1px 0px 0px 0px; */
+  padding: 5px 0px 0px 0px;
 }
 
 #works .card-image-e2 {
-  padding: 3px 0px 2.2px 0px;
+  padding: 2px 0px 2.2px 0px;
   border: solid 1px #db3689;
   background-color: #fff;
 }
 
 #works .card-image-e3 {
-  padding: 11.8px 0px 0px 0px;
+  padding: 12px 0px 0px 0px;
   border: solid 1px #be4883;
   background-color: rgb(191, 191, 191);
 }
