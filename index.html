@@ -18,6 +18,9 @@
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/f-icon.gif" />
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -122,8 +125,8 @@
               </figcaption>
             </figure>
             <figure class="card">
-              <a href="img/works/making.png" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_making.png" alt="" class="card-image-e3" />
+              <a href="img/works/Usacafe.png" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_Usacafe.png" alt="" class="card-image-e3" />
               </a>
               <figcaption class="card-caption">
                 <p class="card-caption-title">作成中です！</p>
@@ -315,6 +318,27 @@
       </div>
     </footer>
     <div id="page_top"><a href="#"></a></div>
+
+    <script type="text/javascript">
+      jQuery(function() {
+        var pagetop = $('#page_top');   
+        pagetop.hide();
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+                pagetop.fadeIn();
+            } else {
+                pagetop.fadeOut();
+            }
+        });
+        pagetop.click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 300); //0.3秒かけてトップへ移動
+            return false;
+        });
+      });  
+        </script>
+        
   </div>
 
 
